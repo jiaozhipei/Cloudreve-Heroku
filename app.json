@@ -1,13 +1,10 @@
 {
-	"name": "cloudreve",
-	"description": "Deploy cloudreve on Heroku.",
+    "name": "Cloudreve-Heroku",
+	"description": "Deploy Cloudreve on Heroku.",
 	"repository": "https://github.com/FuaerCN/cloudreve-heroku",
-	"keywords": ["cloudreve"],
+	"website": "https://yam.ink",
+	"keywords": ["Cloudreve"],
 	"env": {
-		"DB_Type": {
-			"description": "Database Type",
-			"value": "mysql"
-		},
 		"DB_Host": {
 			"description": "Database Host",
 			"value": "127.0.0.1"
@@ -29,6 +26,5 @@
 			"value": "cloudreve"
 		}
 	},
-	"website": "https://yam.ink",
 	"stack": "container"
 }
