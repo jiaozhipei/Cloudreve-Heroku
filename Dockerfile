@@ -1,6 +1,5 @@
 FROM debian:stable-slim
 
-ADD mycloudreve.ini /root/cloudreve/mycloudreve.ini
 ADD aria2.conf /root/aria2/aria2.conf
 ADD trackers-list-aria2.sh /root/aria2/trackers-list-aria2.sh
 ADD run.sh /root/cloudreve/run.sh
